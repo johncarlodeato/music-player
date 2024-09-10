@@ -16,10 +16,16 @@ include 'connect.php';
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
+
+<h1>Welcome to the Home Page</h1>
+
+<!-- Button to redirect to the album page -->
+<button onclick="window.location.href='album.php'">Album Pictures</button>
+
 
 <section class="playlist">
 
@@ -27,6 +33,9 @@ include 'connect.php';
    <h3 class="heading">music playlist</h3>
    <h3 class="heading">music playlist</h3>
 
+
+
+   
    <div class="box-container">
 
    <?php
