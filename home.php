@@ -24,6 +24,8 @@ include 'connect.php';
 <section class="playlist">
 
    <h3 class="heading">music playlist</h3>
+   <h3 class="heading">music playlist</h3>
+   <h3 class="heading">music playlist</h3>
 
    <div class="box-container">
 
